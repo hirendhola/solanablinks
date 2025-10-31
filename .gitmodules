@@ -1,2 +1,6 @@
-git submodule add git@github.com:hirendhola/solana-blinks-be.git backend
-git submodule add git@github.com:hirendhola/solana-blinks-fe.git frontend
+[submodule "backend"]
+    path = backend
+    url = git@github.com:hirendhola/solana-blinks-be.git
+[submodule "frontend"]
+    path = frontend
+    url = git@github.com:hirendhola/solana-blinks-fe.git
